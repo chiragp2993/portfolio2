@@ -18,7 +18,7 @@
 		</nav>
 	</header>
 	<section class="title-merch">
-		<h2 align="center">Merch</h2>
+		<h2 align="center" class="header-merch-cart">Merch</h2>
 		<ul class="merch-container">
 			<li>
 				<div class="merch-name">Merch1</div>
@@ -91,11 +91,12 @@
 		<section class="title-cart">
 
 
-			<h2 align="center">CART</h2>
+			<h2 align="center" class="header-merch-cart" >CART</h2>
 			<ul class="cart-header">
 				<li align="center"><strong>ITEM</strong></li>
 				<li align="center"><strong>PRICE</strong></li>
 				<li align="center"><strong>QUANTITY</strong></li>
+				<li align="center"><strong>SUBTOTAL</strong></li>
 			</ul>
 
 
@@ -120,6 +121,10 @@
 				<li>
 					<button role="REMOVE" class="btn-remove">Remove</button>
 				</li>
+				<li>
+					<div class="merch-subtotal">$13.98</div>
+				</li>
+
 			</ul>
 
 
@@ -144,16 +149,25 @@
 				<li>
 					<button role="REMOVE" class="btn-remove">Remove</button>
 				</li>
+				<li>
+					<div class="merch-subtotal">$12.99</div>
+				</li>
+				
 			</ul>
 
 
 
 			<hr>
+			<ul class="cart-total">
+				<li><strong>Total</strong></li>
+				<li>$19.98</li>
+				
+			</ul>
 
+			<ul class="cart-total">
+				<li><button role="Place_Order" class="btn-order">Place Order</button></li>
+			</ul>
 
-			<strong>Total</strong>
-			<span>19.98</span>
-			<button role="Place_Order" class="btn-order">Place Order</button>
 
 
 		</section>
